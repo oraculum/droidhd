@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <include layout="@layout/colorstrip" />
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/activity_side_padding"
+        android:layout_marginRight="@dimen/activity_side_padding"
+        android:layout_marginTop="@dimen/activity_vert_padding"
+        android:layout_marginBottom="@dimen/activity_vert_padding">
+
+        <FrameLayout android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1">
+            <include layout="@layout/tabs_container" />
+        </FrameLayout>
+
+        <FrameLayout android:id="@+id/fragment_container_search_detail"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/activity_pane_spacing"
+            android:padding="@dimen/detail_pane_padding"
+            android:background="?android:attr/detailsElementBackground">
+            <View android:id="@android:id/empty"
+                android:background="@drawable/empty_sessions_background"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

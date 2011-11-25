@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:id="@+id/relativeLayout"
+xmlns:android="http://schemas.android.com/apk/res/android">
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:id="@+id/scrollView"
+    android:fillViewport="true"
+    android:layout_height="fill_parent"
+    android:layout_above="@+id/commandLayout">
+
+
+    <LinearLayout android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:id="@+id/contentLayout"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip"
+        android:paddingTop="5dip"
+        android:paddingBottom="85dip"
+        android:fadingEdge="vertical"
+        android:layout_height="fill_parent">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nome:" />
+
+        <EditText
+            android:id="@+id/txtNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone:" />
+        <oraculum.droid.util.PhoneEditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txtTel" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefone 2:" />
+		<oraculum.droid.util.PhoneEditText android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/txtTel2" />
+
+		<TextView
+		    android:id="@+id/textView4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="E-mail:" />
+
+		<EditText
+		    android:id="@+id/txtEmail"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="textEmailAddress" />
+
+		<TextView
+		    android:id="@+id/textView5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Endereço:" />
+
+		<EditText
+		    android:id="@+id/txtEnd"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/textView6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Número:" />
+
+		<EditText
+		    android:id="@+id/txtNum"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:inputType="number" />
+
+		<TextView
+		    android:id="@+id/textView7"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Complemento:" />
+
+		<EditText
+		    android:id="@+id/txtComp"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/textView8"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Bairro:" />
+
+		<EditText
+		    android:id="@+id/txtBairro"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/textView9"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Cidade:" />
+
+		<EditText
+		    android:id="@+id/txtCidade"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/textView10"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Estado:" />
+
+		<Spinner
+		    android:id="@+id/spEstado"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+		<TextView
+		    android:id="@+id/textView11"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Cep:" />
+
+		<oraculum.droid.util.CepEditText
+		    android:id="@+id/txtCEP"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content" />
+
+    </LinearLayout>  
+    
+    
+    </ScrollView>        
+
+   <RelativeLayout
+       android:id="@+id/relativeLayout1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:paddingTop="5dip" 
+       android:background="#ffffff">
+
+       <Button
+           android:id="@+id/btnVoltar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentLeft="true"
+           android:text="Voltar" >
+       </Button>
+
+       
+
+       <LinearLayout
+           android:id="@+id/linearLayout1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_alignParentRight="true" >
+ 
+		   <Button
+	           android:id="@+id/btnApagar"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="Apagar" 
+	           android:layout_marginRight="20dp">
+	       </Button>
+           
+           <Button
+	           android:id="@+id/btnSalvar"
+	           android:layout_width="wrap_content"
+	           android:layout_height="wrap_content"
+	           android:text="Salvar" >
+	       </Button>
+	
+
+       </LinearLayout>
+   </RelativeLayout>
+    
+</RelativeLayout>

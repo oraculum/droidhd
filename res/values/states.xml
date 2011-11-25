@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="UfLabels">
+		<item>Acre</item>
+		<item>Alagoas</item>
+		<item>Amapá</item>
+		<item>Amazonas</item>
+		<item>Bahia</item>
+		<item>Ceará</item>
+		<item>Distrito Federal</item>
+		<item>Espírito Santo</item>
+		<item>Goiás</item>
+		<item>Maranhão</item>
+		<item>Mato Grosso</item>
+		<item>Mato Grosso do Sul</item>
+		<item>Minas Gerais</item>
+		<item>Pará</item>
+		<item>Paraíba</item>
+		<item>Paraná</item>
+		<item>Pernambuco</item>
+		<item>Piauí</item>
+		<item>Rio de Janeiro</item>
+		<item>Rio Grande do Norte</item>
+		<item>Rio Grande do Sul</item>
+		<item>Rondônia</item>
+		<item>Roraima</item>
+		<item>Santa Catarina</item>
+		<item>São Paulo</item>
+		<item>Sergipe</item>
+		<item>Tocantins</item>
+	</string-array>
+	<string-array name="UfValues">
+		<item>AC</item>
+		<item>AL</item>
+		<item>AP</item>
+		<item>AM</item>
+		<item>BA</item>
+		<item>CE</item>
+		<item>DF</item>
+		<item>ES</item>
+		<item>GO</item>
+		<item>MA</item>
+		<item>MT</item>
+		<item>MS</item>
+		<item>MG</item>
+		<item>PA</item>
+		<item>PB</item>
+		<item>PR</item>
+		<item>PE</item>
+		<item>PI</item>
+		<item>RJ</item>
+		<item>RN</item>
+		<item>RS</item>
+		<item>RO</item>
+		<item>RR</item>
+		<item>SC</item>
+		<item>SP</item>
+		<item>SE</item>
+		<item>TO</item>
+	</string-array>
+</resources>

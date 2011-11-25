@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_add_cliente"
+        android:icon="@drawable/ic_title_add"
+        android:title="@string/btn_add_cliente"
+        android:orderInCategory="1"
+        android:showAsAction="ifRoom" />
+</menu>

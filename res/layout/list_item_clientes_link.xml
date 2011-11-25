@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    style="@style/ListItemContainer">
+    <RelativeLayout android:id="@+id/list_item_cliente"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/ListItemContent">
+        <TextView android:id="@+id/cliente_title"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ListItemTitle" />
+        <TextView android:id="@+id/cliente_subtitle"
+            android:layout_below="@id/cliente_title"
+            android:layout_alignParentLeft="true"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            style="@style/ListItemSubtitle" />
+    </RelativeLayout>
+</FrameLayout>
